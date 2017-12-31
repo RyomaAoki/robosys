@@ -1,7 +1,6 @@
-obj-m:= myled.o
+obj-m:= sw_dev.o
 
-myled.ko: myled.c
-    make -C /usr/src/linux M=`pwd` V=1 modules
-
+mysw.ko: sw_dev.c
+	make -C /usr/src/linux M=`pwd` V=1 modules
 clean:
-    make -C /usr/src/linux M=`pwd` V=1 clean
+	make -C /usr/src/linux M=`pwd` V=1 clean
