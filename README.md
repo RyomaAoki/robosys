@@ -29,6 +29,6 @@ https://youtu.be/HEd2FFKmutM
 順番に数字を光らせる場合
 
 
-        $ echo r > /dev/myled0
+        $ echo t > /dev/myled0
 
 
