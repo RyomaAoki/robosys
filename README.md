@@ -3,9 +3,11 @@
 
 # Description
 7セグLEDを使い、0～9、.を表示させる
-またtで0から順番点灯させる
+またtを入力することで0から順番に数字を点灯させる
 
 # Deomo
+
+https://youtu.be/HEd2FFKmutM
 
 # Usage
         $ git clone https://github.com/RyomaAoki/robosys.git
