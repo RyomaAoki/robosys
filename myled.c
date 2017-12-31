@@ -266,6 +266,8 @@ static int __init init_mod(void)
 {
     int retval;
     int i;
+    
+    gpio_base = ioremap_nocache(0x3f200000, 0xA0);
 
     for(i = 0;i < 8;i++){
     const u32 led = gpio_pin[i];
